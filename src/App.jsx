@@ -28,7 +28,7 @@ export default function App() {
       </div>
 
       <div className="controls">
-        <span className="o-color">LEFT CLICK = O</span> <br> </><span className="x-color">RIGHT CLICK = X</span>
+        <span className="o-color">LEFT CLICK = O</span> </br> <span className="x-color">RIGHT CLICK = X</span>
       </div>
 
       <div className="board">
