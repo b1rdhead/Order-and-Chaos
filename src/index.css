@@ -37,6 +37,9 @@ h1 {
 }
 
 @media (max-width: 500px) {
+  body{
+    padding: 1rem;
+  }
   .status-bar {
     display: flex;
     flex-direction: column;
@@ -47,6 +50,11 @@ h1 {
     padding: 1rem;
     margin-bottom: 2rem;
     font-weight: bold;
+  }
+  .cell{
+    font-size: 5vw;
+    min-width: 0;
+    min-height: 0;
   }
 }
 
