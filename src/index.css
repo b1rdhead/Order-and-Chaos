@@ -28,13 +28,26 @@ h1 {
 
 .status-bar {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   border: 3px solid var(--dark);
   background: #222;
   padding: 1rem;
   margin-bottom: 2rem;
   font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .status-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+    border: 3px solid var(--dark);
+    background: #222;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
 }
 
 .controls {
