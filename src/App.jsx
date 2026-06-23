@@ -12,7 +12,7 @@ export default function App() {
   };
 
   const handleRightClick = (e, r, c) => {
-    e.preventDefault(); // stop right-click menu
+    e.preventDefault();
     if (!game.isHumanTurn) return;
     game.applyMove(r, c, 'X');
   };
